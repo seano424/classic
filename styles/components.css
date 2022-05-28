@@ -1,7 +1,6 @@
 @layer components {
   .link {
-    @apply text-yellow-300 text-5xl font-black uppercase tracking-tighter;
-    font-family: 'CabinetGrotesk';
+    @apply border-b py-6 pl-6 hover:bg-white hover:text-primary transition-all duration-150 ease-linear;
   }
 
   .card {

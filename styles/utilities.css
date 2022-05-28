@@ -8,6 +8,6 @@
   }
 
   .px-base {
-    @apply lg:px-80;
+    @apply px-4 lg:px-48;
   }
 }

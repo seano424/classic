@@ -10,12 +10,12 @@ export default function Hero() {
         <h1 className="text-6xl lg:text-8xl font-black px-20 lg:px-0 lg:w-80">
           Some Awesome Website!
         </h1>
-        <p className="text-lg text-gray-300 font-light lg:text-3xl lg:max-w-2xl px-10 lg:px-0">
+        <p className="text-lg font-light lg:text-3xl lg:max-w-2xl px-10 lg:px-0">
           Some nice tagline I am woohoo oh yea! Keep it going if ya want yea!
         </p>
         <div className="flex space-x-4 max-w-2xl text-xl font-light">
           <div className="hidden lg:flex items-center relative flex-1">
-            <span className="absolute left-5 text-black">
+            <span className="absolute left-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-10"
