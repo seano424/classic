@@ -30,7 +30,7 @@ export default function Navbar(props: Props) {
             alt="Logo Image"
             priority
             height={60}
-            width={300}
+            width={250}
           />
         </li>
       </ul>
