@@ -1,6 +1,6 @@
 @layer utilities {
   .py-base {
-    @apply py-6 sm:py-10 md:py-32;
+    @apply py-6;
   }
 
   .my-base {
@@ -8,6 +8,6 @@
   }
 
   .px-base {
-    @apply px-4 lg:px-48;
+    @apply px-8 lg:px-56;
   }
 }

@@ -16,12 +16,16 @@
     @apply text-4xl sm:text-6xl font-serif;
   }
 
+  .h2 {
+    @apply text-2xl font-light;
+  }
+
   .p {
-    @apply text-lg sm:text-2xl font-light;
+    @apply font-light text-lg;
   }
 
   .button {
-    @apply px-12 py-5 font-bold text-lg sm:text-2xl;
+    @apply px-12 py-5 font-bold text-lg w-full sm:w-auto sm:text-2xl;
   }
 
   .page-padding {

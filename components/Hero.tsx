@@ -11,13 +11,13 @@ export default function Hero() {
         layout="fill"
         priority
       />
-      <div className="absolute left-0 top-0 right-0 bottom-20 z-20 flex flex-col gap-20 items-center justify-center mx-auto max-w-xs sm:max-w-xl md:max-w-4xl">
+      <div className="absolute left-0 top-0 right-0 bottom-20 z-20 flex flex-col gap-20 items-center justify-center mx-auto max-w-lg sm:max-w-xl md:max-w-4xl">
         <div className="text-center text-white grid gap-10">
           <h1 className='h1'>Main Keywords of What They Do, And Location If Needed</h1>
-          <p className='p text-neutral-superlight leading-relaxed'>
+          <h2 className='h2 text-neutral-superlight leading-relaxed'>
             Talk about the other services they do with keywords and locations
             where they serve. Try to make this 2-3 lines tall.
-          </p>
+          </h2>
         </div>
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row">
           <button className="button bg-primary text-white">
