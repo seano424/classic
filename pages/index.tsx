@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import Headline from '@/components/Headline'
 import Hero from '@/components/Hero'
 import Layout from '@/components/Layout'
@@ -9,8 +10,9 @@ const Home: NextPage = () => {
     <Layout>
       <Hero />
       <Headline />
-      <hr className='container'/>
+      <hr className="container" />
       <Services />
+      <About />
     </Layout>
   )
 }
