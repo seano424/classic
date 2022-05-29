@@ -28,6 +28,10 @@
     @apply px-12 py-5 font-bold text-lg w-full sm:w-auto sm:text-2xl;
   }
 
+  .container {
+    @apply flex flex-col gap-20 items-center justify-center mx-auto max-w-lg sm:max-w-xl md:max-w-4xl;
+  }
+
   .page-padding {
     @apply pt-56 pb-8;
   }
