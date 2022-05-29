@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
         </div>
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row">
-          <button className="button bg-primary text-white">
+          <button className="button bg-primary text-neutral">
             Get Started Today
           </button>
           <button className="button bg-neutral text-white">
