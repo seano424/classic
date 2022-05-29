@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import CtaOverlay from '@/components/CtaOverlay'
 import Headline from '@/components/Headline'
 import Hero from '@/components/Hero'
 import Layout from '@/components/Layout'
@@ -13,6 +14,8 @@ const Home: NextPage = () => {
       <hr className="container" />
       <Services />
       <About />
+      <Headline />
+      <CtaOverlay />
     </Layout>
   )
 }

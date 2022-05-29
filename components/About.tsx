@@ -49,7 +49,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <button className="button bg-primary hover:text-white w-full py-12 hover:bg-blue-500 transition-all duration-100 ease-linear absolute bottom-0 md:static">
+      <button className="button bg-primary hover:text-white w-full py-12 absolute bottom-0 md:static">
         Read More About Us
       </button>
     </section>
