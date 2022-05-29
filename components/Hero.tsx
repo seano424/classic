@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative h-[45rem] w-full lg:h-[48rem]">
+    <section className="relative h-[45rem] w-full lg:h-[50rem]">
       <Image
         className="object-cover"
         src="/images/hero.jpg"
@@ -11,7 +11,7 @@ export default function Hero() {
       />
       <div>
         <svg
-          className="absolute bottom-0"
+          className="hidden sm:block absolute bottom-0 left-0 right-0"
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           width="100%"
