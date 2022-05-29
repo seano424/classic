@@ -18,10 +18,6 @@ module.exports = {
         'neutral-superlight': '#F7F7F7',
       },
     },
-    // container: {
-    //   center: false,
-    //   padding: '1rem',
-    // },
     debugScreens: {
       position: ['bottom', 'right'],
       style: {
