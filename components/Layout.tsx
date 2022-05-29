@@ -2,7 +2,6 @@ import { ReactNode, useState } from 'react'
 import Head from 'next/head'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Link from 'next/link'
 import Menu from './Menu'
 interface Props {
   children: ReactNode
