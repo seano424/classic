@@ -8,6 +8,7 @@ export default function Hero() {
         src="/images/hero.jpg"
         alt="Hero Background Image"
         layout="fill"
+        priority
       />
       <div>
         <svg
