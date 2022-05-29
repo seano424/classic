@@ -22,14 +22,16 @@ export default function Navbar(props: Props) {
         className="cursor-pointer select-none lg:hidden"
         onClick={() => setShowMenu(!showMenu)}
       >
-        <Hamburger
-          toggled={showMenu}
-          toggle={setShowMenu}
-          size={20}
-          duration={0.2}
-          easing="ease-in"
-          label="Show Menu"
-        />
+        <li>
+          <Hamburger
+            toggled={showMenu}
+            toggle={setShowMenu}
+            size={20}
+            duration={0.2}
+            easing="ease-in"
+            label="Show Menu"
+          />
+        </li>
       </ul>
       {/* Main Navigation */}
       <ul className="hidden items-center gap-16 lg:flex text-lg">
