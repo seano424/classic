@@ -5,7 +5,7 @@ export default function About() {
     <section className="relative">
       <div className="grid md:grid-cols-2">
         <div className="bg-primary-light flex flex-col justify-center gap-8 p-16">
-          <p className="p uppercase text-primary">
+          <p className="p uppercase text-neutral">
             Ensuring your systems are optimal
           </p>
           <h2 className="h2 capitalize">
@@ -36,7 +36,7 @@ export default function About() {
           />
         </div>
         <div className="bg-primary-light flex flex-col justify-center gap-8 p-16">
-          <p className="p uppercase text-primary">
+          <p className="p uppercase text-neutral">
             Ensuring your systems are optimal
           </p>
           <h2 className="h2 capitalize">
