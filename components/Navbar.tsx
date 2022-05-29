@@ -13,14 +13,24 @@ export default function Navbar(props: Props) {
   return (
     <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
       <ul className="flex items-center">
-        <li>
+        <li className='hidden xl:block'>
           <Image
             className="object-cover"
             src="/images/salt.png"
             alt="Logo Image"
             priority
-            height={120}
+            height={90}
             width={450}
+          />
+        </li>
+        <li className='xl:hidden'>
+          <Image
+            className="object-cover"
+            src="/images/salt.png"
+            alt="Logo Image"
+            priority
+            height={60}
+            width={300}
           />
         </li>
       </ul>
@@ -41,7 +51,7 @@ export default function Navbar(props: Props) {
         </li>
       </ul>
       {/* Main Navigation */}
-      <ul className="hidden items-center gap-16 lg:flex text-lg">
+      <ul className="hidden items-center gap-8 lg:flex text-xl font-bold">
         <Link href="/">
           <a className="text-primary">Home</a>
         </Link>
