@@ -8,7 +8,7 @@ export default function Menu(props: Props) {
   const { showMenu } = props
   return (
     <section className={`${showMenu ? 'block' : 'hidden'} lg:hidden`}>
-      <ul className="absolute w-full flex flex-col border bg-neutral-superlight z-10">
+      <ul className="absolute w-full flex flex-col border bg-neutral-superlight z-30">
         <Link href="/">
           <a className="bg-white text-primary link">
             Home

@@ -1,5 +1,6 @@
 import { Spin as Hamburger } from 'hamburger-react'
 import Link from 'next/link'
+import Image from 'next/image'
 interface Props {
   logo?: string
   title?: string
@@ -8,13 +9,19 @@ interface Props {
 }
 
 export default function Navbar(props: Props) {
-  const { logo, title, showMenu, setShowMenu } = props
+  const { showMenu, setShowMenu } = props
   return (
-    <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-8">
+    <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
       <ul className="flex items-center">
-        <li className="flex items-center gap-2 text-4xl font-serif capitalize font-bold">
-          <span className="text-6xl">{logo}</span>
-          <span className="max-w-sm">{title}</span>
+        <li>
+          <Image
+            className="object-cover"
+            src="/images/salt.png"
+            alt="Logo Image"
+            priority
+            height={120}
+            width={450}
+          />
         </li>
       </ul>
       {/* Mobile Navigation */}

@@ -10,7 +10,7 @@ interface Props {
 }
 
 export default function Layout(props: Props) {
-  const { children, title = 'Classic', logo = '🍃' } = props
+  const { children, title = 'Logo', logo = '🍃' } = props
   const [showMenu, setShowMenu] = useState(false)
   return (
     <div className="flex flex-col min-h-screen text-neutral">
