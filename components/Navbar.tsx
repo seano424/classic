@@ -19,7 +19,7 @@ export default function Navbar(props: Props) {
             className="object-cover"
             src="/images/salt.png"
             alt="Logo Image"
-            layout='fill'
+            layout="fill"
             priority
           />
         </a>
@@ -54,10 +54,7 @@ export default function Navbar(props: Props) {
         <Link href="/reviews">
           <a className="hover:text-blue-600">Reviews</a>
         </Link>
-        <Link href="/">
-          <a className="hover:text-blue-600">News</a>
-        </Link>
-        <Link href="/">
+        <Link href="/contact-us">
           <a className="hover:text-blue-600">Contact Us</a>
         </Link>
       </ul>

@@ -17,7 +17,7 @@
   }
 
   .h2 {
-    @apply text-3xl sm:text-5xl font-serif;
+    @apply text-5xl font-serif;
   }
 
   .h3 {
@@ -30,6 +30,10 @@
 
   .button {
     @apply px-8 py-4 font-bold text-lg w-full sm:w-auto uppercase hover:bg-blue-500 hover:text-white transition-all duration-100 ease-linear;
+  }
+
+  .input {
+    @apply border-none bg-neutral-superlight placeholder-gray-400 focus:ring-0 focus:border-none w-full rounded-md;
   }
 
   .container {

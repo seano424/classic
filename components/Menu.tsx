@@ -21,10 +21,7 @@ export default function Menu(props: Props) {
         <Link href="/reviews">
           <a className="link">Reviews</a>
         </Link>
-        <Link href="/">
-          <a className="link">News</a>
-        </Link>
-        <Link href="/">
+        <Link href="/contact-us">
           <a className="link">Contact Us</a>
         </Link>
       </ul>
