@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative h-[45rem] w-full">
+    <section className="relative h-[45rem] w-full lg:h-[47rem]">
       <div id="overlay" className="bg-black/40 absolute inset-0 z-10" />
       <Image
         className="object-cover"
@@ -16,10 +16,10 @@ export default function Hero() {
           <h1 className="h1">
             Main Keywords of What They Do, And Location If Needed
           </h1>
-          <p className="h3 text-neutral-superlight leading-relaxed">
+          <h2 className="h3 text-neutral-superlight leading-relaxed">
             Talk about the other services they do with keywords and locations
             where they serve. Try to make this 2-3 lines tall.
-          </p>
+          </h2>
         </div>
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row">
           <button className="button bg-primary text-neutral">
