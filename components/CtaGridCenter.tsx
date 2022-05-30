@@ -68,7 +68,7 @@ const people = [
 
 export default function CtaGridCenter() {
   return (
-    <section className="grid md:grid-cols-3 md:gap-8 lg:gap-20 px-base my-base">
+    <section className="grid md:grid-cols-3 md:gap-8 lg:gap-20 my-base container">
       {people.slice(0, 3).map((person, i) => (
         <div
           key={i}
