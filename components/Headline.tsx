@@ -9,7 +9,7 @@ export default function Headline(props: Props) {
   } = props
 
   return (
-    <section className="container text-center gap-8 my-base">
+    <section className="container text-center gap-8 my-base px-base">
       <h2 className="h2">{header}</h2>
       <p className="p">{subheader}</p>
     </section>

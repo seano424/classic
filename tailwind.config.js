@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cabinet: '"CabinetGrotesk", serif',
-        gambarino: '"Gambarino", serif',
+        inter: '"Inter", sans-serif',
       },
       colors: {
         primary: '#65BE7D',

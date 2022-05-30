@@ -33,7 +33,7 @@
   }
 
   .container {
-    @apply flex flex-col gap-20 items-center justify-center mx-auto max-w-lg sm:max-w-xl md:max-w-3xl lg:max-w-4xl;
+    @apply flex flex-col gap-20 items-center justify-center mx-auto max-w-lg sm:max-w-xl md:max-w-3xl lg:max-w-4xl 2xl:max-w-6xl;
   }
 
   .page-padding {
