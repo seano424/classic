@@ -7,6 +7,7 @@ import Services from '@/components/Services'
 import type { NextPage } from 'next'
 import CtaSideBySide from '@/components/CtaSideBySide'
 import Employees from '@/components/CtaGridCenter'
+import Blog from '@/components/CtaGrid'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <hr className="container" />
       <CtaSideBySide />
       <Employees />
+      <Blog />
     </Layout>
   )
 }
