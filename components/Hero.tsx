@@ -12,14 +12,14 @@ export default function Hero() {
         priority
       />
       <div className="absolute left-0 top-0 right-0 bottom-20 z-20 container">
-        <div className="text-center text-white grid gap-10">
+        <div className="text-center text-white grid gap-10 px-base">
           <h1 className="h1">
             Main Keywords of What They Do, And Location If Needed
           </h1>
-          <h2 className="h3 text-neutral-superlight leading-relaxed">
+          <p className="h3 text-neutral-superlight leading-relaxed">
             Talk about the other services they do with keywords and locations
             where they serve. Try to make this 2-3 lines tall.
-          </h2>
+          </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row">
           <button className="button bg-primary text-neutral">
