@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <section className="bg-neutral-superlight py-10">
       <div className="flex m-5 sm:m-20 sm:px-base">
-        <div className="text-center flex flex-col gap-4 bg-white h-full p-5 sm:p-20">
+        <div className="text-center flex flex-col gap-4 bg-white h-full p-5 sm:p-20 flex-1">
           <h2 className="h2 mb-4">Contact Us</h2>
           <form className="flex flex-col gap-4">
             <div className="flex gap-4">
@@ -53,7 +53,7 @@ export default function ContactForm() {
             </button>
           </form>
         </div>
-        <div className="hidden lg:block bg-blue-300 w-[40rem]">
+        <div className="hidden lg:block bg-blue-300 w-[30rem]">
           <div className="relative h-full w-full">
             <Image
               className="object-cover"
