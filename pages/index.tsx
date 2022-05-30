@@ -13,17 +13,17 @@ const Home: NextPage = () => {
   return (
     <Layout>
       {/* <Hero /> */}
-      <Headline />
-      <hr className="container" />
-      <Services />
-      <About />
-      <Headline />
-      <CtaOverlay />
-      <Headline header="People Matter at Company Name" />
-      <hr className="container" />
-      <CtaSideBySide />
-      <Employees />
-      <Blog />
+      {/* <Headline /> */}
+      {/* <hr className="container" /> */}
+      {/* <Services /> */}
+      {/* <About /> */}
+      {/* <Headline /> */}
+      {/* <CtaOverlay /> */}
+      {/* <Headline header="People Matter at Company Name" /> */}
+      {/* <hr className="container" /> */}
+      {/* <CtaSideBySide /> */}
+      {/* <Employees /> */}
+      {/* <Blog /> */}
     </Layout>
   )
 }
