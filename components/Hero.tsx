@@ -4,13 +4,13 @@ export default function Hero() {
   return (
     <section className="relative h-[45rem] w-full">
       <div id="overlay" className="bg-black/40 absolute inset-0 z-10" />
-      <Image
+      {/* <Image
         className="object-cover"
         src="/images/hero.jpg"
         alt="Hero Background Image"
         layout="fill"
         priority
-      />
+      /> */}
       <div className="absolute left-0 top-0 right-0 bottom-20 z-20 container">
         <div className="text-center text-white grid gap-10 px-base">
           <h1 className="h1">
