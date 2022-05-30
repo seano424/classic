@@ -14,13 +14,12 @@ export default function Navbar(props: Props) {
     <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
       {/* Logo */}
       <Link href="/">
-        <a className="relative h-10 w-40 sm:h-16 sm:w-64 lg:h-20 lg:w-80">
+        <a className="relative h-12 w-44 sm:h-16 sm:w-64 lg:h-20 lg:w-80">
           <Image
             className="object-cover"
             src="/images/salt.png"
             alt="Logo Image"
-            height={70}
-            width={300}
+            layout='fill'
             priority
           />
         </a>
