@@ -41,24 +41,24 @@ export default function Navbar(props: Props) {
         </li>
       </ul>
       {/* Main Navigation */}
-      <ul className="hidden items-center gap-8 lg:flex">
+      <ul className="hidden items-center gap-8 lg:flex font-bold text-xl">
         <Link href="/">
-          <a className="hover:text-gray-600">Home</a>
+          <a className="hover:text-blue-600">Home</a>
         </Link>
         <Link href="/about">
-          <a className="hover:text-gray-600">About</a>
+          <a className="hover:text-blue-600">About</a>
+        </Link>
+        <Link href="/projects">
+          <a className="hover:text-blue-600">Projects</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-gray-600">Services</a>
+          <a className="hover:text-blue-600">Investors</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-gray-600">Investors</a>
+          <a className="hover:text-blue-600">News</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-gray-600">News</a>
-        </Link>
-        <Link href="/">
-          <a className="hover:text-gray-600">Contact Us</a>
+          <a className="hover:text-blue-600">Contact Us</a>
         </Link>
       </ul>
     </nav>

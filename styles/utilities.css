@@ -10,4 +10,22 @@
   .px-base {
     @apply px-8 xl:px-28 2xl:px-40;
   }
+
+  @variants responsive {
+    .masonry {
+      gap: 2em;
+      column-count: 1;
+    }
+    .masonry-sm {
+      gap: 2em;
+      column-count: 2;
+    }
+    .masonry-md {
+      gap: 2em;
+      column-count: 3;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+  }
 }
