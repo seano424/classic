@@ -30,7 +30,7 @@ export default function Layout(props: Props) {
       /> */}
       <Menu showMenu={showMenu} />
       <main className="flex-1 w-full h-full">{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
