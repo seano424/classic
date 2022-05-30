@@ -22,12 +22,12 @@ export default function Layout(props: Props) {
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚪️</text></svg>"
         />
       </Head>
-      {/* <Navbar
+      <Navbar
         title={title}
         logo={logo}
         showMenu={showMenu}
         setShowMenu={setShowMenu}
-      /> */}
+      />
       <Menu showMenu={showMenu} />
       <main className="flex-1 w-full h-full">{children}</main>
       {/* <Footer /> */}
