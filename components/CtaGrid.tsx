@@ -6,7 +6,7 @@ export default function CtaGrid() {
     <section className="my-base container gap-10">
       <div className="flex justify-between w-full">
         <h3 className="h3">Latest News</h3>
-        <p className="flex items-center text-primary">
+        <p className="flex items-center ">
           View all <ChevronRightIcon className="w-4" />
         </p>
       </div>
@@ -27,7 +27,7 @@ export default function CtaGrid() {
               itaque doloribus fugit illum ab dolorem harum fugiat quis quidem
               obcaecati.
             </p>
-            <a href="/" className="text-primary">
+            <a href="/" className="">
               Continue Reading
             </a>
           </div>
@@ -48,7 +48,7 @@ export default function CtaGrid() {
               itaque doloribus fugit illum ab dolorem harum fugiat quis quidem
               obcaecati.
             </p>
-            <a href="/" className="text-primary">
+            <a href="/" className="">
               Continue Reading
             </a>
           </div>
@@ -69,7 +69,7 @@ export default function CtaGrid() {
               itaque doloribus fugit illum ab dolorem harum fugiat quis quidem
               obcaecati.
             </p>
-            <a href="/" className="text-primary">
+            <a href="/" className="">
               Continue Reading
             </a>
           </div>

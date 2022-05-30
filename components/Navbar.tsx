@@ -12,7 +12,7 @@ export default function Navbar(props: Props) {
   const { showMenu, setShowMenu } = props
   return (
     <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
-      {/* Logo */}
+      {/* Logo
       <ul className="flex items-center">
         <li className="relative h-10 w-40 sm:h-16 sm:w-64 lg:h-20 lg:w-80">
           <Image
@@ -23,7 +23,7 @@ export default function Navbar(props: Props) {
             priority
           />
         </li>
-      </ul>
+      </ul> */}
       {/* Mobile Navigation */}
       <ul
         className="cursor-pointer select-none lg:hidden"
