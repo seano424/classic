@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Hero />
-      <Headline />
+      {/* <Headline />
       <hr className="container" />
       <Services />
       <About />
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       <hr className="container" />
       <CtaSideBySide />
       <Employees />
-      <Blog />
+      <Blog /> */}
     </Layout>
   )
 }
