@@ -13,8 +13,8 @@ export default function Navbar(props: Props) {
   return (
     <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
       {/* Logo */}
-      <ul className="flex items-center">
-        <li className="relative h-10 w-40 sm:h-16 sm:w-64 lg:h-20 lg:w-80">
+      <Link href="/">
+        <a className="relative h-10 w-40 sm:h-16 sm:w-64 lg:h-20 lg:w-80">
           <Image
             className="object-cover"
             src="/images/salt.png"
@@ -23,8 +23,8 @@ export default function Navbar(props: Props) {
             width={300}
             priority
           />
-        </li>
-      </ul>
+        </a>
+      </Link>
       {/* Mobile Navigation */}
       <ul
         className="cursor-pointer select-none lg:hidden"
@@ -46,7 +46,7 @@ export default function Navbar(props: Props) {
         <Link href="/">
           <a className="hover:text-gray-600">Home</a>
         </Link>
-        <Link href="/">
+        <Link href="/about">
           <a className="hover:text-gray-600">About</a>
         </Link>
         <Link href="/">

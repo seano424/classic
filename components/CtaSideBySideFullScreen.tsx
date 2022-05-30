@@ -1,8 +1,13 @@
 import Image from 'next/image'
 
-export default function CtaSideBySideFullScreen() {
+interface Props {
+  readMoreButton?: boolean
+}
+
+export default function CtaSideBySideFullScreen(props: Props) {
+  const { readMoreButton = true } = props
   return (
-    <section className="relative">
+    <section className="relative my-base">
       <div className="grid md:grid-cols-2">
         <div className="bg-primary-light flex flex-col justify-center gap-8 p-16">
           <p className="p uppercase text-neutral">
@@ -49,9 +54,11 @@ export default function CtaSideBySideFullScreen() {
           </p>
         </div>
       </div>
-      <button className="button bg-primary hover:text-white w-full py-12 absolute bottom-0 md:static">
-        Read More About Us
-      </button>
+      {readMoreButton && (
+        <button className="button bg-primary hover:text-white w-full py-12 absolute bottom-0 md:static">
+          Read More About Us
+        </button>
+      )}
     </section>
   )
 }

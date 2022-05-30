@@ -14,7 +14,7 @@ export default function Menu(props: Props) {
             Home
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/about">
           <a className="link">
             About
           </a>
