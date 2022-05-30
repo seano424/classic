@@ -1,4 +1,4 @@
-import About from '@/components/About'
+import About from '@/components/CtaSideBySide'
 import CtaOverlay from '@/components/CtaOverlay'
 import Headline from '@/components/Headline'
 import Hero from '@/components/Hero'
