@@ -13,7 +13,7 @@ export default function Navbar(props: Props) {
   return (
     <nav className="flex justify-between items-center w-full bg-white/50 filter backdrop-blur-sm px-base py-4">
       {/* Logo 825 X 215*/}
-      {/* <Link href="/">
+      <Link href="/">
         <a className="relative h-full w-40 lg:w-96">
           <Image
             className="object-cover"
@@ -24,7 +24,7 @@ export default function Navbar(props: Props) {
             priority
           />
         </a>
-      </Link> */}
+      </Link>
       {/* Mobile Navigation */}
       <ul
         className="cursor-pointer select-none lg:hidden"
