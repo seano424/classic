@@ -20,7 +20,7 @@ export default function CtaSideBySide() {
         <div className="relative w-full h-[45rem]">
           <Image
             className="object-cover"
-            src="/images/people.jpeg"
+            src="https://images.unsplash.com/photo-1560250056-07ba64664864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2051&q=80"
             alt="Unsplash Image"
             layout="fill"
           />
@@ -30,7 +30,7 @@ export default function CtaSideBySide() {
         <div className="relative w-full h-[45rem]">
           <Image
             className="object-cover"
-            src="/images/architecture.jpeg"
+            src="https://images.unsplash.com/photo-1530054221884-f6a6f5e699dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
             alt="Unsplash Image"
             layout="fill"
           />

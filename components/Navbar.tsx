@@ -18,8 +18,8 @@ export default function Navbar(props: Props) {
             className="object-cover"
             src="/images/salt.png"
             alt="Logo Image"
-            priority
             layout='fill'
+            priority
           />
         </li>
       </ul>
