@@ -24,7 +24,6 @@ export default function CtaOverlay(props: Props) {
         src={image}
         alt="Hero Background Image"
         layout="fill"
-        priority
       />
       <div className="absolute left-0 top-0 right-0 bottom-0 z-20 container">
         <div className="text-center text-white grid gap-10">
