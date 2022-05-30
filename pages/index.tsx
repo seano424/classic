@@ -6,6 +6,7 @@ import Layout from '@/components/Layout'
 import Services from '@/components/Services'
 import type { NextPage } from 'next'
 import CtaSideBySide from '@/components/CtaSideBySide'
+import Employees from '@/components/CtaGridCenter'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Headline header="People Matter at Company Name" />
       <hr className="container" />
       <CtaSideBySide />
+      <Employees />
     </Layout>
   )
 }
