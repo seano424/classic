@@ -9,7 +9,7 @@ export default function Hero() {
         src="/images/hero.jpg"
         alt="Hero Background Image"
         layout="fill"
-        priority
+        priority={true}
       />
       <div className="absolute left-0 top-0 right-0 bottom-20 z-20 container">
         <div className="text-center text-white grid gap-10 px-base">
