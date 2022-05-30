@@ -12,7 +12,7 @@ import Blog from '@/components/CtaGrid'
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Hero />
+      {/* <Hero /> */}
       <Headline />
       <hr className="container" />
       <Services />

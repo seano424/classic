@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <section className="relative h-[45rem] w-full">
-      <div id="overlay" className="bg-black/40 absolute inset-0 z-10" />
+      <div id="overlay" className="bg-black absolute inset-0 z-10" />
       {/* <Image
         className="object-cover"
         src="/images/hero.jpg"
