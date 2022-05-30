@@ -2,12 +2,9 @@ import type { NextPage } from 'next'
 import Hero from '@/components/CtaOverlay'
 import CtaOverlay from '@/components/CtaOverlay'
 import Layout from '@/components/Layout'
-import TextSideBySide from '@/components/TextSideBySide'
-import CtaSideBySideFullScreen from '@/components/CtaSideBySideFullScreen'
-import Image from 'next/image'
 import Masonry from '@/components/Masonry'
 
-const Home: NextPage = () => {
+const Projects: NextPage = () => {
   return (
     <Layout>
       <Hero
@@ -23,4 +20,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Projects

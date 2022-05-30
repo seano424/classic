@@ -10,34 +10,22 @@ export default function Menu(props: Props) {
     <section className={`${showMenu ? 'block' : 'hidden'} lg:hidden`}>
       <ul className="absolute w-full flex flex-col border bg-neutral-superlight z-30">
         <Link href="/">
-          <a className="bg-white text-primary link">
-            Home
-          </a>
+          <a className="bg-white text-primary link">Home</a>
         </Link>
         <Link href="/about">
-          <a className="link">
-            About
-          </a>
+          <a className="link">About</a>
+        </Link>
+        <Link href="/projects">
+          <a className="link">Projects</a>
+        </Link>
+        <Link href="/reviews">
+          <a className="link">Reviews</a>
         </Link>
         <Link href="/">
-          <a className="link">
-            Services
-          </a>
+          <a className="link">News</a>
         </Link>
         <Link href="/">
-          <a className="link">
-            Investors
-          </a>
-        </Link>
-        <Link href="/">
-          <a className="link">
-            News
-          </a>
-        </Link>
-        <Link href="/">
-          <a className="link">
-            Contact Us
-          </a>
+          <a className="link">Contact Us</a>
         </Link>
       </ul>
     </section>

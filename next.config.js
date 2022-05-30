@@ -1,6 +1,6 @@
 const nextConfig = {
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.unsplash.com', 'buildkit-v3-demo.netlify.app'],
   },
   webpack(config) {
     config.module.rules.push({

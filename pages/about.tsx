@@ -5,7 +5,7 @@ import Layout from '@/components/Layout'
 import TextSideBySide from '@/components/TextSideBySide'
 import CtaSideBySideFullScreen from '@/components/CtaSideBySideFullScreen'
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <Layout>
       <Hero
@@ -22,4 +22,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default About

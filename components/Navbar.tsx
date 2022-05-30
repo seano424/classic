@@ -51,8 +51,8 @@ export default function Navbar(props: Props) {
         <Link href="/projects">
           <a className="hover:text-blue-600">Projects</a>
         </Link>
-        <Link href="/">
-          <a className="hover:text-blue-600">Investors</a>
+        <Link href="/reviews">
+          <a className="hover:text-blue-600">Reviews</a>
         </Link>
         <Link href="/">
           <a className="hover:text-blue-600">News</a>
