@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative h-[33rem] w-full md:h-[45rem] lg:h-[47rem]">
+    <section className="relative w-full h-[50rem]">
       <div id="overlay" className="bg-black/40 absolute inset-0 z-10" />
       <Image
         className="object-cover"
@@ -11,7 +11,7 @@ export default function Hero() {
         layout="fill"
         priority
       />
-      <div className="absolute left-0 top-0 right-0 sm:bottom-20 z-20 sm:container">
+      <div className="absolute left-0 top-0 right-0 bottom-20 z-20 sm:container flex flex-col justify-center">
         <div className="text-center text-white grid sm:gap-10 px-base py-base">
           <h1 className="h1 pb-4 sm:pb-0">
             Main Keywords of What They Do, And Location If Needed
