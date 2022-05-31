@@ -34,7 +34,7 @@ export default function Navbar(props: Props) {
         </li>
       </ul>
       {/* Main Navigation */}
-      <ul className="hidden items-center gap-8 lg:flex">
+      <div className="hidden items-center gap-8 lg:flex">
         <Link href="/">
           <a className="hover:text-blue-600">Home</a>
         </Link>
@@ -50,7 +50,7 @@ export default function Navbar(props: Props) {
         <Link href="/contact-us">
           <a className="hover:text-blue-600">Contact Us</a>
         </Link>
-      </ul>
+      </div>
     </nav>
   )
 }
