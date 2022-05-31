@@ -10,11 +10,11 @@ interface Props {
 export default function Navbar(props: Props) {
   const { showMenu, setShowMenu } = props
   return (
-    <nav className="flex justify-between items-center w-full filter backdrop-blur-sm px-20 py-4">
+    <nav className="flex justify-between items-center w-full filter backdrop-blur-sm px-4 sm:px-20 py-4">
       {/* Logo */}
       <Link href="/">
-        <a className="flex items-center gap-4 md:text-2xl font-serif font-black">
-          ⚪️ Salt Studios & Design Classic Theme
+        <a className="flex items-center gap-4 md:text-2xl font-serif font-black tracking-widest uppercase">
+          ⚪️ Salt Studios
         </a>
       </Link>
       {/* Mobile Navigation */}
